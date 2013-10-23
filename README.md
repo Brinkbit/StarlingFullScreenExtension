@@ -14,15 +14,15 @@ Requirements:
 
 Directory:
 
-License - /LICENSE.md
-Extension files - /spacebar/
-Documentation - /DOCS/index.html
-Flash Builder 4.7 sample project - /FullScreenExample/
-Read me - /README.md
+- License: /LICENSE.md
+- Extension files: /spacebar/
+- Documentation: /DOCS/index.html
+- Flash Builder 4.7 sample project: /FullScreenExample/
+- Read me: /README.md
 
 To keep updated on SpaceBar news and and updates join our newsletter or follow us on any of these fine social networks!
 
-http://spacebarup.com/newsletter
-http://facebook.com/spacebarup
-http://twitter.com/spacebarup
-http://plus.google.com/105695153445869665504
+- http://spacebarup.com/newsletter
+- http://facebook.com/spacebarup
+- http://twitter.com/spacebarup
+- http://plus.google.com/105695153445869665504
