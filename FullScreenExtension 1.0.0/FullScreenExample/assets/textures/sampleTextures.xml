@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:e79a45c08968ef6cc641d8d81de6f06c:1/1$ -->
+<TextureAtlas imagePath="sampleTextures.png">
+    <SubTexture name="BattleStart" x="2" y="2" width="410" height="287" frameX="0" frameY="-2" frameWidth="410" frameHeight="291"/>
+    <SubTexture name="SpaceBarLogo" x="2" y="563" width="205" height="65"/>
+    <SubTexture name="UILeft" x="2" y="291" width="306" height="133" frameX="0" frameY="-2" frameWidth="308" frameHeight="135"/>
+    <SubTexture name="UIRight" x="2" y="426" width="304" height="135" frameX="-4" frameY="0" frameWidth="308" frameHeight="135"/>
+</TextureAtlas>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<allClasses>
+   <apiPackage id="starling.extensions.spacebar.fullscreenscreenextension">
+      <apiName>starling.extensions.spacebar.fullscreenscreenextension</apiName>
+      <apiClassifier id="starling.extensions.spacebar.fullscreenscreenextension:FullScreenExtension">
+         <apiName>FullScreenExtension</apiName>
+         <shortdesc>
+	 A static class to simplify multi-resolution support in Starling.</shortdesc>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <apiDesc>
+	 A static class to simplify multi-resolution support in Starling. When creating a new instance of Starling, call
+	 <codeph>ScreenExtension.createStarling()</codeph> instead of <codeph>new Starling()</codeph>.
+	 
+	 <p>See <xref href="http://spacebarup.com">http://spacebarup.com</xref> for tutorials and more information.</p>
+	        </apiDesc>
+      </apiClassifier>
+   </apiPackage>
+</allClasses>
