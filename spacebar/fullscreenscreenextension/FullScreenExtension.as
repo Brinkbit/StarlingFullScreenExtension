@@ -85,7 +85,7 @@ package starling.extensions.spacebar.fullscreenscreenextension
 			// and add it to the stage.
 			var screenViewPort:Rectangle = new Rectangle(0, 0, 1, 1);
 			_starling = new Starling(rootClass, flashStage, screenViewPort);
-			_stage = new starling.display.Stage(1, 1, flashStage.color);
+			_stage = new starling.extensions.spacebar.fullscreenscreenextension.Stage(1, 1, flashStage.color);
 			autoResize = !manuallySize;
 			
 			// we need this inBetweener so that we can position the stage object because
