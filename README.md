@@ -5,7 +5,7 @@ Starling FullScreen No Stretch Extension
 Designed and developed by Brinkbit in Baltimore, Maryland
 
 The latest documentation and code samples are available at:
-http://Brinkbit.com
+http://www.Brinkbit.com/blog/starling-fullscreen-extension/
 
 This extension provides you with a simple straight-forward way to handle fullscreen multiresolution support without any distortion or cropping.
 
