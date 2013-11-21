@@ -1,5 +1,5 @@
 // ===============================================================================
-//	Copyright (c) 2013 SpaceBar Apps & Games
+//	Copyright (c) 2013 Brinkbit Apps & Games
 //
 //	Permission is hereby granted, free of charge, to any person obtaining a copy
 //	of this software and associated documentation files (the "Software"), to deal
@@ -33,7 +33,7 @@ package screens
 	import starling.events.Touch;
 	import starling.events.TouchEvent;
 	import starling.events.TouchPhase;
-	import starling.extensions.spacebar.fullscreenscreenextension.FullScreenExtension;
+	import starling.extensions.brinkbit.fullscreenscreenextension.FullScreenExtension;
 	
 	
 	public class InitScreen extends Screen
@@ -80,6 +80,7 @@ package screens
 		private var spaceBarLogo:Image;	
 		
 		private function positionImages():void {
+			
 			// align to the top center of the stage
 			battleStartImg.x = (FullScreenExtension.stageWidth - battleStartImg.width) >> 1;
 			battleStartImg.y = FullScreenExtension.stageTop;
