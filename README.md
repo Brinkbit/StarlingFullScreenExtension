@@ -15,7 +15,7 @@ Requirements:
 Directory:
 
 - License: /LICENSE.md
-- Extension files: /spacebar/
+- Extension files: /brinkbit/
 - Documentation: /DOCS/index.html
 - Flash Builder 4.7 sample project: /FullScreenExample/
 - Read me: /README.md
