@@ -71,7 +71,10 @@ package starling.extensions.brinkbit.fullscreenscreenextension
 											  height:int, 
 											  horizontalGravity:String="center",
 											  verticalGravity:String="center", 
-											  manuallySize:Boolean=false):Starling {
+											  manuallySize:Boolean=false,
+											  stage3D:Stage3D = null,
+											  renderMode:String = Context3DRenderMode.AUTO,
+											  profile:String = Context3DProfile.BASELINE_CONSTRAINED):Starling {
 			if (_starling != null)
 				return _starling;
 			if (horizontalGravity != HAlign.LEFT && horizontalGravity != HAlign.CENTER && horizontalGravity != HAlign.RIGHT)
@@ -87,7 +90,7 @@ package starling.extensions.brinkbit.fullscreenscreenextension
 			// which will be triggered in starling's constructor. For now we just create everything
 			// and add it to the stage.
 			var screenViewPort:Rectangle = new Rectangle(0, 0, 1, 1);
-			_starling = new Starling(rootClass, flashStage, screenViewPort);
+			_starling = new Starling(rootClass, flashStage, screenViewPort, stage3D, renderMode, profile);
 			_stage = new starling.extensions.brinkbit.fullscreenscreenextension.Stage(1, 1, flashStage.color);
 			autoResize = !manuallySize;
 			
