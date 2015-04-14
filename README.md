@@ -1,4 +1,6 @@
-========================================
+This project is no longer actively maintained
+
+
 Starling FullScreen No Stretch Extension
 ========================================
 
